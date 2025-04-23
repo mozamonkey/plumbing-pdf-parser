@@ -1,13 +1,9 @@
 "use client";
-import Image from "next/image";
-import styles from "./page.module.css";
 import { Button, Container, Grid, Typography } from "@mui/material";
 import Navbar from "@/components/Navbar";
 import FileUpload from "@/components/FileUpload";
-import { FilePondFile, FilePondInitialFile } from "filepond";
 import { useState } from "react";
 import axios from "axios";
-import JsonViewer from "@/components/JsonViewer";
 import ResultTable from "@/components/ResultTable";
 
 export default function Home() {

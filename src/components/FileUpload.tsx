@@ -1,9 +1,6 @@
 "use client";
 import { FilePond } from "react-filepond";
 import "filepond/dist/filepond.min.css";
-import { ActualFileObject, FilePondFile, FilePondInitialFile } from "filepond";
-import { Dispatch, SetStateAction } from "react";
-
 const FileUpload = ({
   disabled = false,
   files,

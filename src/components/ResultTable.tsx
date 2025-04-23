@@ -1,5 +1,4 @@
-import Box from "@mui/material/Box";
-import { DataGrid, GridColDef, GridRowsProp } from "@mui/x-data-grid";
+import { DataGrid, GridColDef } from "@mui/x-data-grid";
 
 const ResultTable = ({ data }: { data: any[] }) => {
   const columns: GridColDef[] = [
