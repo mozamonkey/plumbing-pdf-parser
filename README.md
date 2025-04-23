@@ -22,6 +22,9 @@ A single-page web application that allows users to upload PDF files containing p
 - **Frontend + Backend**: NextJS
 - **PDF Parsing**: Google Gemini
 
+## Limitations
+Larger PDFs can take a bit longer to process so this implementation could benefit from using a job queue for processing PDFs and then emailing the analysis result to users after the job has been completed. I opted to forgo setting up a job queue due to the time constraints listed in the task description and additional overhead required to make it work as expected (DB hosting, file hosting, Redis hosting, etc).
+
 ## Video demo
 https://github.com/user-attachments/assets/3e8f507f-80f7-436c-8585-bd17497f2fea
 
